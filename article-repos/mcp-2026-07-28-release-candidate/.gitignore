@@ -1,0 +1,15 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and local scratch
+*.log
+.tmp/
+tmp/
+
+# Dependency folders, should examples be expanded later
+node_modules/
+.venv/
+venv/
