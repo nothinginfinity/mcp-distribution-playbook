@@ -1,0 +1,26 @@
+# MCP 2026-07-28 style stateless Streamable HTTP flow
+# Based on the article's after example.
+
+POST /mcp HTTP/1.1
+MCP-Protocol-Version: 2026-07-28
+Mcp-Method: tools/call
+Mcp-Name: search
+Content-Type: application/json
+
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "tools/call",
+  "params": {
+    "name": "search",
+    "arguments": {
+      "q": "otters"
+    },
+    "_meta": {
+      "io.modelcontextprotocol/clientInfo": {
+        "name": "my-app",
+        "version": "1.0"
+      }
+    }
+  }
+}
