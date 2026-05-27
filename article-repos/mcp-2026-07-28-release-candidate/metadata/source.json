@@ -1,0 +1,28 @@
+{
+  "version": "0.1",
+  "doc_id": "doc_18d8323e032442",
+  "source": {
+    "url": "http://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/",
+    "content_type": "text/html; charset=utf-8"
+  },
+  "article": {
+    "title": "The 2026-07-28 MCP Specification Release Candidate",
+    "date": "2026-05-21",
+    "authors": [
+      "David Soria Parra",
+      "Den Delimarsky"
+    ],
+    "topic": "Model Context Protocol 2026-07-28 release candidate"
+  },
+  "parse": {
+    "pages": 1,
+    "blocks": 1,
+    "tables": 0,
+    "key_values": 0,
+    "overall_confidence": "medium"
+  },
+  "generated_repo_artifact": {
+    "path": "article-repos/mcp-2026-07-28-release-candidate",
+    "purpose": "Structured implementation notes, examples, migration checklist, and reference metadata derived from the parsed article."
+  }
+}
