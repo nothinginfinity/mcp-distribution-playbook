@@ -1,0 +1,13 @@
+{
+  "resultType": "inputRequired",
+  "inputRequests": {
+    "confirm": {
+      "type": "elicitation",
+      "message": "Delete 3 files?",
+      "schema": {
+        "type": "boolean"
+      }
+    }
+  },
+  "requestState": "eyJzdGVwIjoxLCJmaWxlcyI6WyJhIiwiYiIsImMiXX0="
+}
